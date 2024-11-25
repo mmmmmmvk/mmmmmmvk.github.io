@@ -1,0 +1,75 @@
+
+body{
+background-image: url('img/wp.jpg');
+color: white;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: none;
+cursor: crosshair;
+}
+
+
+div{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+    color: white;
+}
+
+div:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    transition: all .5s ease-in-out;
+    cursor: crosshair;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    gap: 15px; 
+}
+
+img{
+    width: 30vw;
+    height: 30vh;
+}
+
+img:hover{
+    border-radius: 40px;
+    transition: all .1s ease-in-out;
+}
+
+.navbar li a {
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+li:hover a{
+    background-color: black;
+    color: white;
+    transition: all .1s ease-in;
+    cursor: crosshair;
+}
+
+li{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    padding: 10px;
+}
